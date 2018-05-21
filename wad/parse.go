@@ -23,7 +23,7 @@ import (
 )
 
 var decimalSuffixes [19]string
-var reNumber = regexp.MustCompile(`^\d+(\.\d+)?$`)
+var reNumber = regexp.MustCompile(`^-?\d+(\.\d+)?$`)
 
 func init() {
 	s := ""
